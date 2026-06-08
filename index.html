@@ -15,7 +15,85 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h2>продукты</h2>
+    <header
+      class="flex items-center justify-between max-w-[1240px] m-auto mt-[46px] mb-[46px]"
+    >
+      <img src="/logo.svg" alt="" />
+      <ul class="flex items-center gap-[20px]">
+        <li>Статьи</li>
+        <li>Подкасты</li>
+        <li>Курсы</li>
+        <li>Книги</li>
+        <li>Игры</li>
+      </ul>
+      <div class="btn-box flex items-center gap-[20px]">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button
+          class="px-[30px] py-[15px] rounded-[15px] bg-[#F3F4FD] text-[#20346A] hover:bg-[#20346A] hover:text-[#F3F4FD]"
+        >
+          Стать клиентом
+        </button>
+        <button
+          class="px-[30px] py-[15px] rounded-[15px] bg-[#F3F4FD] text-[#20346A] hover:bg-[#20346A] hover:text-[#F3F4FD]"
+        >
+          Войти
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="left max-w-[1240px] m-auto">
+        <h2 class="max-w-[608px] text-[54px] mb-[104px]">
+          Нескучное издание в финансовой и лайф-сфере
+        </h2>
+        <img src="/line.png" alt="" />
+        <div class="btns grid grid-cols-2 gap-[20px] max-w-[600px]">
+          <div
+            class="flex items-center justify-between max-w-[290px] px-[28px] py-[51px] bg-[#F9FFA1] rounded-[24px] mt-[20px]"
+          >
+            Подкасты <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div
+            class="flex items-center justify-between max-w-[290px] px-[28px] py-[51px] bg-[#F9FFA1] rounded-[24px] mt-[20px]"
+          >
+            Курсы <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between max-w-[290px] px-[28px] py-[51px] bg-[#F9FFA1] rounded-[24px] mb-[20px]"
+          >
+            Игры <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div
+            class="flex items-center justify-between max-w-[290px] px-[28px] py-[51px] bg-[#F9FFA1] rounded-[24px] mb-[20px]"
+          >
+            Книги <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <section>
+          <div class="tts flex items-center justify-between max-w-[600px]">
+            <h2 class="text-[40px]">Рубрики</h2>
+            <div class="btns">
+              <button
+                class="bg-[#F3F4FD] text-[#20346A] hover:bg-[#20346A] hover:text-[#F3F3FD] py-[10px] px-[14px] rounded-[400px]"
+              >
+                Кредиты
+              </button>
+              <button
+                class="bg-[#F3F4FD] text-[#20346A] hover:bg-[#20346A] hover:text-[#F3F3FD] py-[10px] px-[14px] rounded-[400px]"
+              >
+                Инвестиции
+              </button>
+              <button
+                class="bg-[#F3F4FD] text-[#20346A] hover:bg-[#20346A] hover:text-[#F3F3FD] py-[10px] px-[14px] rounded-[400px]"
+              >
+                Экономика
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="right"></div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
